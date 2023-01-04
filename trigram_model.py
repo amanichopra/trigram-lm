@@ -10,12 +10,6 @@ from tqdm import tqdm
 import warnings
 
 warnings.filterwarnings('ignore')
-"""
-COMS W4705 - Natural Language Processing - Fall 2022 
-Prorgramming Homework 1 - Trigram Language Models
-Daniel Bauer
-"""
-
 
 def corpus_reader(corpusfile, lexicon=None, read_limit=None):
     with open(corpusfile,'r') as corpus: 
